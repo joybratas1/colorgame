@@ -1,0 +1,74 @@
+body {
+	background-color:  gray;
+	margin: 0;
+	font-family: 'Fjalla One', sans-serif; 
+}
+
+.square {
+	border-radius: 35px;
+	width: 30%;
+	background-color: purple;
+	padding-top: 30%;
+	float: left;
+	margin: 1%;
+	transition: background 0.6s;
+	 -webkit-transition: background 0.6s; /* Safari */
+  -moz-transition: background 0.6s;    /*For browser friendly of transition property mozilla*/
+}
+
+#container{
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+#colordisplay{
+	font-size: 140%;
+}
+#strip{
+	background-color: white;
+	height: 30px;
+	text-align: center; 
+
+}
+h1{
+	background-color: steelblue;
+	text-align: center;
+	margin: 0;
+	font-weight: normal;
+	text-decoration-style: solid;
+	text-transform: uppercase;
+	padding: 20px 0;   /*padding in both top and bottom together*/
+}
+
+.selected {
+	background: steelblue;
+	  color: white;;
+}
+
+#message{
+	display: inline-block;
+	 width: 20%
+}
+
+button{
+	border: none;
+	background: none; 
+	height: 100%;
+	text-transform: uppercase;
+	font-weight: 800;
+	outline: none;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  -moz-transition-duration: 0.4s;    /*For browser friendly of transition property*/
+  transition-duration: 0.8s;
+  color: steelblue;
+  letter-spacing: 1px;
+  font-size: 100;
+}
+button:hover{
+	  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	  background: steelblue;
+	  color: white;
+
+}
+  
